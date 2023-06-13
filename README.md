@@ -1,12 +1,12 @@
 # SALEM-Obsidian-Theme
 
-This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and minimalistic user interface, with a focus on readability and ease of use, and new special features
+This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and minimalistic user interface, with a focus on readability and ease of use, with some of special features
 ![Alt text](screenshot.png)
 
 ## Features
 
 - Center callout, which is the best and easiest solution to center text in Obsidian. no need to use ugly HTML tags or complex Latex,
-  Just create new Callout and add the type as "CENTER", That's it.
+  Just create new Callout and add the type as "CENTER" or "CENT", That's it.
 - number of Special custom callouts to emphasize important information.
 - Dark mode for low-light environments.
 - Icons for folders to visually distinguish different folders and notes.
