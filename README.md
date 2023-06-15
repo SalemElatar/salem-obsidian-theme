@@ -1,7 +1,7 @@
 # SALEM-Obsidian-Theme
 
 This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and minimalistic user interface, with a focus on readability and ease of use, with some of special features
-![Alt text](screenshot.png)
+![Alt text](screenshot-large.png)
 
 ## Features
 
