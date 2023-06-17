@@ -103,17 +103,7 @@ body {
   --color-cyan: rgb(var(--color-cyan-rgb));
   --color-purple-rgb: 115, 15, 195;
   --color-purple: rgb(var(--color-purple-rgb));
-
-  /* 
---color-orange-rgb: var();
---color-orange: var(); 
---color-green-rgb:
---color-green: 
---color-yellow-rgb:
---color-yellow: 
---color-pink-rgb:
---color-pink:  */
-
+  
   --background-primary: #110f0f;
   --background-secondary: #111111;
 
