@@ -21,9 +21,6 @@ To install the Obsidian theme, follow these steps -it also works with any theme 
 
 - Open Obsidian and navigate to `Settings > Appearance`. In `themes` section select `manage`
 - In the search box search for `Salem-theme` and install it, then click enable. that's it.
-- To do it manually, Download the `obsidian.css` file. and in the `Themes` section in the settings click `Open folder`.
-- Place the `obsidian.css` file in the `themes` folder.
-- Go back to the App Select the Obsidian theme from the list of installed themes.
 
 ## Feedback and Support
 
