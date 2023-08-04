@@ -65,7 +65,7 @@ body {
   --italic-color: rgb(var(--color-crimson-rgb));
 
   /* Lists */
-  --list-marker-color: transparent;
+  --list-marker-color: var(--color-accent);
   --list-bullet-border: 1px solid var(--color-accent-2);
 
   /* Window frame */
@@ -106,7 +106,7 @@ body {
   --color-cyan: rgb(var(--color-cyan-rgb));
   --color-purple-rgb: 115, 15, 195;
   --color-purple: rgb(var(--color-purple-rgb));
-  
+
   --background-primary: #110f0f;
   --background-secondary: #111111;
 
