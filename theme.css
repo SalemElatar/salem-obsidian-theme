@@ -280,6 +280,13 @@ a[href="#Done"]:hover {
     var(--blockquote-border-color);
 }
 
+/* transparent Callouts */
+.callout[data-callout="transparent"],
+.callout[data-callout="grid_transparent"] {
+  --callout-color: var(--transparent);
+  border-radius: 0;
+}
+
 /* new special callouts are UPCOMING */
 
 /* Starred and Folders Icons */
