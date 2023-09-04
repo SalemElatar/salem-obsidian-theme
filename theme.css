@@ -102,6 +102,10 @@ body {
 
   /* Tables */
   --table-header-color: var(--muted-accent);
+
+  /* Properties Core Plugin */
+  --metadata-property-background-hover: rgba(var(--mono-rgb-100), 0.03);
+  --metadata-input-background-active: var(--background-secondary);
 }
 
 .theme-dark {
@@ -140,6 +144,25 @@ body {
 .markdown-rendered mark {
   background: none;
   color: var(--color-accent);
+}
+
+/* Properties Core Plugin */
+.metadata-properties-heading.is-collapsed {
+  background-color: var(--nav-item-background-hover);
+}
+.metadata-properties-heading.is-collapsed .metadata-properties-title {
+  color: #ffffff9a !important;
+}
+.metadata-properties-heading .metadata-properties-title {
+  color: rgba(var(--muted-accent-rgb) / 0.4);
+  font-size: var(--font-ui-small);
+}
+.metadata-property {
+  --background-modifier-border: transparent;
+  --background-modifier-border-focus: transparent;
+}
+.metadata-properties-heading .collapse-indicator {
+  display: none;
 }
 
 /* lists, tasks */
