@@ -57,7 +57,7 @@ body {
 
   /* Callouts and blockquote */
   --blockquote-border-thickness: 3px;
-  --blockquote-background-color: var(--background-secondary);
+  --blockquote-background-color: #1d1d1da4;
   --callout-radius: 20px;
   --callout-tip: var(--color-starred-rgb);
   --callout-todo: var(--color-green-rgb);
@@ -207,14 +207,44 @@ ul > li.task-list-item[data-task="X"] {
 }
 
 /* Coloring tags */
-a[href="#Done"] {
-  background-color: #7777774f;
-  color: #ffe4c48f;
+a[href="#Done"],
+a[href="#done"],
+a[href="#Archive"],
+a[href="#archive"] {
+  --tag-color: #ffe4c48f;
+  --tag-color-hover: #ffe4c48f;
+  --tag-background: #7777774f;
+  --tag-background-hover: #a9a9a94f;
 }
 
-a[href="#Done"]:hover {
-  background-color: #a9a9a94f;
-  color: #ffe4c48f;
+a[href="#Active"],
+a[href="#active"],
+a[href="#In-progress"],
+a[href="#in-progress"] {
+  --tag-color: hsla(117, 100%, 89%, 0.953);
+  --tag-color-hover: hsla(117, 100%, 89%, 0.897);
+  --tag-background: hsl(125deg 40% 20% / 63%);
+  --tag-background-hover: hsla(125, 39%, 20%, 0.553);
+}
+
+a[href="#Bug"],
+a[href="#bug"],
+a[href="#Warning"],
+a[href="#warning"] {
+  --tag-color: #ffbfbff5;
+  --tag-color-hover: #ffbfbff5;
+  --tag-background: #9c00004f;
+  --tag-background-hover: #9c000075;
+}
+
+a[href="#Video"],
+a[href="#video"],
+a[href="#Article"],
+a[href="#article"] {
+  --tag-color: hsl(18, 54%, 81%);
+  --tag-color-hover: hsl(18, 54%, 81%);
+  --tag-background: hsla(32, 89%, 40%, 0.356);
+  --tag-background-hover: hsla(32, 89%, 40%, 0.421);
 }
 
 /* ############################ */
@@ -250,7 +280,7 @@ a[href="#Done"]:hover {
 .markdown-rendered blockquote:hover {
   padding-left: 30px;
   --blockquote-border-thickness: 7px;
-  --blockquote-background-color: #1d1d1da4;
+  --blockquote-background-color: #232323ef;
 }
 
 .callout {
