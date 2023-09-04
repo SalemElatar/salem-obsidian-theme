@@ -221,7 +221,7 @@ a[href="#Done"]:hover {
 .markdown-rendered blockquote {
   border-radius: 5px;
   padding: 10px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .markdown-rendered blockquote:hover {
