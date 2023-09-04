@@ -2,6 +2,10 @@
 
 This is a custom theme to help you to get the most of for your note-taking and knowledge management needs in Obsidian. It has been crafted to provide you with a clean and comfortable user interface, with a focus on readability and ease of use, with some of special features.
 
+If you find this project valuable or useful, you can [buy me a coffee](https://www.buymeacoffee.com/salemElatar).
+
+[![Support Me on Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?url=https%3A%2F%2Fbuymeacoffee.com%2Fyourusername&count=true&bg-color=orange&text=Buy%20Me%20a%20Coffee)](https://buymeacoffee.com/yourusername)
+
 ![theme shortcut](screenshot-large.png)
 
 ## Features
@@ -22,6 +26,8 @@ This is a custom theme to help you to get the most of for your note-taking and k
 
 ![graph view](graph-screenshot.png)
 
+If you have ideas for improvements or would like to report issues, please visit our GitHub repository and submit your suggestions or bug reports.
+
 ## Installation
 
 To install any Obsidian theme:
@@ -29,6 +35,4 @@ To install any Obsidian theme:
 - Open Obsidian and navigate to `Settings > Appearance`. In `themes` section select `manage`
 - In the search box search for `Salem-theme` and install it, then click enable. that's it.
 
-## Feedback and Support
-
-If you have any feedback or suggestions for the Obsidian theme, or if you encounter any issues or bugs, please feel free to reach out to me. You can contact me by creating an issue on GitHub, or by sending me an email. salem.elatar@gmail.com
+conatct me: salem.elatar5@gmail.com
