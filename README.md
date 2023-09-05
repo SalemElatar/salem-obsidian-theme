@@ -4,7 +4,7 @@ This is a custom theme to help you to get the most of for your note-taking and k
 
 If you find this project valuable or useful, you can [buy me a coffee](https://www.buymeacoffee.com/salemElatar).
 
-[![Support Me on Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?url=https%3A%2F%2Fbuymeacoffee.com%2Fyourusername&count=true&bg-color=orange&text=Buy%20Me%20a%20Coffee)](https://buymeacoffee.com/yourusername)
+[![Support Me on Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?url=https%3A%2F%2Fbuymeacoffee.com%2Fyourusername&count=true&bg-color=orange&text=Buy%20Me%20a%20Coffee)](https://buymeacoffee.com/salemElatar)
 
 ![theme shortcut](screenshot-large.png)
 
