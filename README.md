@@ -17,7 +17,7 @@ If you find this project valuable or useful, you can [buy me a coffee](https://w
 - Better RTL languages Support with improved readability and alignment in both reading and source view. (the main problem that has been fixed was in reading view, some element like the bullet points was aligned in the wrong side)
   ![rtl example](rtl-example.png)
 - Icons for folders to visually distinguish different folders and notes.
-- Certain tags have diffrent colors making it easier to visually identify and organize your notes
+- Certain tags have different colors making it easier to visually identify and organize your notes
   ![colored tags](colored-tags.png)
 - Border-less Transparent cards in canvas, letting canvas to be more minimalstic
 - Better UI Spacing
