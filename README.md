@@ -4,7 +4,7 @@ This is a custom theme to help you to get the most of for your note-taking and k
 
 If you find this project valuable or useful, you can [buy me a coffee](https://www.buymeacoffee.com/salemElatar).
 
-[![Support Me on Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?url=https%3A%2F%2Fbuymeacoffee.com%2Fyourusername&count=true&bg-color=orange&text=Buy%20Me%20a%20Coffee)](https://buymeacoffee.com/yourusername)
+[!["Support Me on Buy Me a Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/salemElatar)
 
 ![theme shortcut](screenshot-large.png)
 
@@ -13,6 +13,8 @@ If you find this project valuable or useful, you can [buy me a coffee](https://w
 - Center callout, which is the best and easiest solution to center text in Obsidian. no need to use ugly HTML tags or complex Latex,
   Just create new Callout and add the type as "CENTER" or "CENT", That's it.
   ![Center Callout example](center-callout.png)
+- ListGrid Callout, it works with dataview "LIST", when you wrap the dataview query inside the callout, also works with simple markdown lists
+  ![ListGrid Callout](gridList.png)
 - Dark mode Suitable for Low Light Environments
 - Better RTL languages Support with improved readability and alignment in both reading and source view. (the main problem that has been fixed was in reading view, some element like the bullet points was aligned in the wrong side)
   ![rtl example](rtl-example.png)

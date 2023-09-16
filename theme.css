@@ -317,6 +317,20 @@ a[href="#article"] {
   border-radius: 0;
 }
 
+/* gridlist Callouts */
+.callout[data-callout="gridlist"] {
+  --callout-color: var(--transparent);
+}
+.callout[data-callout="gridlist"] .callout-title {
+  display: none;
+}
+.callout[data-callout="gridlist"] .has-list-bullet li {
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 2%;
+}
+
 /* new special callouts are UPCOMING */
 
 /* Starred and Folders Icons */
@@ -412,11 +426,15 @@ div.dataview-error-box {
   --text-selection: hsla(var(--interactive-accent-hsl), 0.05);
 }
 
-.dataview.list-view-ul {
+.callout[data-callout="gridlist"] .dataview.list-view-ul,
+.callout[data-callout="gridlist"] .has-list-bullet {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
-.dataview.list-view-ul li {
+
+.callout[data-callout="gridlist"] .dataview.list-view-ul li {
+  list-style: none;
   border: 1px solid #a4a3a354;
   border-radius: 10px;
   text-align: center;
@@ -425,12 +443,9 @@ div.dataview-error-box {
   margin-bottom: 15px;
   margin-right: 2%;
 }
-.dataview.list-view-ul li span a {
-  display: block;
-}
 
-.dataview-result-list-li {
-  list-style: none !important;
+.callout[data-callout="gridlist"] .dataview.list-view-ul li span a {
+  display: block;
 }
 
 /* Calendar Plugin */
