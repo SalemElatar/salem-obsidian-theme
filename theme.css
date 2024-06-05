@@ -436,7 +436,7 @@ a[href="#article"] {
 }
 .callout {
   transition: all 0.3s ease-in-out;
-  border: 1px solid rgb(var(--callout-color), 0.64);
+  /* border: 1px solid rgb(var(--callout-color), 0.64); */
 }
 
 .callout-icon .svg-icon,
@@ -489,6 +489,7 @@ a[href="#article"] {
 /* gridlist Callouts */
 .callout[data-callout="gridlist"] {
   --callout-color: transparent;
+  padding: 0;
 }
 .callout[data-callout="gridlist"] .callout-title {
   display: none;
@@ -579,6 +580,32 @@ a[href="#article"] {
 .callout[data-callout="cite-header"] {
   --callout-color: var(--callout-quote);
   --callout-icon: quote-glyph;
+}
+
+.callout[data-callout="moon"] {
+  --callout-color: var(--callout-tip);
+  --callout-icon: lucide-sun-moon;
+}
+
+.callout[data-callout="author"] {
+  display: flex;
+  flex-direction: column-reverse;
+  --callout-icon: user;
+  --callout-color: var(--callout-quote);
+}
+.callout[data-callout="author"] > .callout-title {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8px;
+  font-style: italic;
+}
+.callout[data-callout="author"] .callout-content p {
+  margin-top: 0;
+}
+
+.callout[data-callout="comment"] {
+  --callout-color: var(--callout-quote);
+  --callout-icon: message-square;
 }
 
 /* Folders Icons */
