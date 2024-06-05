@@ -145,6 +145,10 @@ body:not(.native-scrollbars) ::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 
+.center-content {
+  text-align: center;
+}
+
 ul > li.task-list-item[data-task="x"] a.internal-link {
   text-decoration: var(--checklist-done-decoration);
   color: rgb(var(--muted-accent-rgb) / 75%);
