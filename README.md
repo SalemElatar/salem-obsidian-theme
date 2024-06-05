@@ -15,20 +15,18 @@ If you find this project valuable or useful, you can [buy me a coffee](https://w
   ![Center Callout example](center-callout.png)
 - ListGrid Callout, it works with dataview "LIST", when you wrap the dataview query inside the callout, also works with simple markdown lists
   ![ListGrid Callout](gridList.png)
-- Dark mode Suitable for Low Light Environments
+- Better UI Spacing, the UI is more readable and easier to navigate. Dark mode Suitable for Low Light Environments
 - Better RTL languages Support with improved readability and alignment in both reading and source view. (the main problem that has been fixed was in reading view, some element like the bullet points was aligned in the wrong side)
   ![rtl example](rtl-example.png)
 - Icons for folders to visually distinguish different folders and notes.
-- Certain tags have diffrent colors making it easier to visually identify and organize your notes
+- Certain tags have different colors making it easier to visually identify and organize your notes
   ![colored tags](colored-tags.png)
-- Border-less Transparent cards in canvas, letting canvas to be more minimalstic
-- Better UI Spacing
+- Border-less Transparent cards in canvas, letting canvas to be more minimalistic
 - compatible with most core and community plugins.
+- header callouts that are inspired from the vicious-theme , use it as ">![callout-name_header]" . also there are a more custom callouts like "moon", "author", "comment"
 - More features to come in future updates.
 
 ![graph view](graph-screenshot.png)
-
-If you have ideas for improvements or would like to report issues, please visit our GitHub repository and submit your suggestions or bug reports.
 
 ## Installation
 
@@ -37,4 +35,4 @@ To install any Obsidian theme:
 - Open Obsidian and navigate to `Settings > Appearance`. In `themes` section select `manage`
 - In the search box search for `Salem-theme` and install it, then click enable. that's it.
 
-conatct me: salem.elatar5@gmail.com
+If you have ideas for improvements, please feel free to contact me: salem.elatar5@gmail.com, or open an issue or a pull request.

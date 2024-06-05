@@ -1,7 +1,7 @@
 {
   "name": "SALEM",
-  "version": "1.0.0",
-  "minAppVersion": "1.0.0",
-  "author": "Salem",
-  "authorUrl": "https://github.com/SalemElatar"
+  "version": "2.5.0",
+  "minAppVersion": "2.5.0",
+  "author": "Salem mohsen",
+  "authorUrl": "https://salemelatar.vercel.app"
 }
