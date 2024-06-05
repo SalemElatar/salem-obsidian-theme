@@ -719,6 +719,8 @@ div.dataview-error-box {
 
 .dataview.dataview-ul.dataview-result-list-ul {
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .dataview.dataview-ul.dataview-result-list-ul li {
   list-style: none;
@@ -743,4 +745,8 @@ input[type="email"],
 input[type="password"],
 input[type="number"] {
   width: 100%;
+}
+.is-flashing,
+.is-flashing .internal-link {
+  color: #000 !important;
 }
