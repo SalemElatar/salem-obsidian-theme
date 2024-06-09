@@ -378,47 +378,8 @@ a[href="#article"] {
 }
 
 /* ############################ */
-/* RTL Fixes */
+/* RTL Fixes !! not needed after obsidian 1.6 update */
 /* ############################ */
-.rtl .markdown-embed-link {
-  left: 4px;
-  right: initial;
-}
-
-.rtl .list-bullet {
-  float: right;
-  margin: 0 0 0 15px;
-}
-
-.rtl .embedded-backlinks .nav-header ~ .search-input-container {
-  margin-right: auto;
-}
-.rtl .mod-footer .backlink-pane .tree-item-self .tree-item-flair-outer {
-  margin-right: auto;
-  margin-left: 0;
-}
-.rtl .mod-footer .backlink-pane .tree-item-self .tree-item-inner {
-  margin-right: 25px;
-}
-
-.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before {
-  right: 0;
-}
-
-.markdown-rendered.rtl blockquote {
-  border-left: none !important;
-  border-right: var(--blockquote-border-thickness) solid
-    var(--blockquote-border-color);
-}
-
-.rtl .has-list-bullet::before {
-  right: 0em !important;
-  left: 0 !important;
-}
-
-.is-rtl .embedded-backlinks .nav-header ~ .search-input-container {
-  margin-right: auto !important;
-}
 
 /* ############################ */
 /* Callouts */
